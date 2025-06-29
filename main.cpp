@@ -9,6 +9,7 @@ int main(int argc, char *argv[]) {
     QPushButton button("Hello world!", nullptr);
     button.resize(200, 100);
     button.move(50, 50);
+    button.setStyleSheet("background-color: red;");
 
 
     button.show();
