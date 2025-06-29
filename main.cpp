@@ -10,6 +10,7 @@ int main(int argc, char *argv[]) {
     button.resize(200, 100);
     button.move(50, 50);
     button.setStyleSheet("background-color: red;");
+    button.setFlat(true);
 
 
     button.show();
