@@ -11,6 +11,7 @@ int main(int argc, char *argv[]) {
     button.move(50, 50);
     button.setStyleSheet("background-color: red;");
     button.setFlat(true);
+    button.setCheckable(true);
 
 
     button.show();
